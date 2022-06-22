@@ -108,7 +108,7 @@ export default function HomePage() {
             password: location.state[1].password,
         };
 
-        axios.post('https://103.226.250.25:8078/authentication/v1/authenticate', requestBody)
+        axios.post('http://103.226.250.25:8078/authentication/v1/authenticate', requestBody)
             .then(response => (
                 setAccessToken('Bearer-' + response.data.access_token)
             ));
