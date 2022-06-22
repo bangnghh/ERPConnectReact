@@ -1,0 +1,229 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+body {
+    margin: 0 auto;
+    background-color: #181625!important;
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.nav-link{
+    color: white!important;
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #F0B90B;
+    border: none;
+    color: #27272D;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: capitalize
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1
+}
+
+.main-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    /* button */
+
+    color: #F0B90B;
+}
+.landing-page-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 12rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    /* button */
+    color: whitesmoke;
+}
+
+.main-para {
+    font-size: 2rem;
+    color: #F0B90B;
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300;
+    color: #f3f3f3;
+}
+p{
+    color: #f3f3f3;
+}
+
+label{
+    color: #27272D;
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: #F0B90B;
+    color: #222;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+.main-info{
+    margin-top: 3rem;
+}
+.info-item{
+    width: 638px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.info{
+    margin-bottom: 0;
+}
+.item-bg-lighter{
+    background: #211D34;
+}
+.token-zone{
+    margin-top: 100px;
+    width: 638px;
+    min-height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+}
+.display-linebreak {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+}
+.button-access-token{
+    background: #F0B90B;
+    border-radius: 5px;
+    padding: 5px;
+}
+.customer-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-transform: uppercase;
+
+    /* button */
+
+    color: #F0B90B;
+
+}
