@@ -105,7 +105,7 @@ export default function HomePage() {
 
         const requestBody = {
             username: location.state[0].customer_id,
-            password: location.state[1].password,
+            password: 'password',
         };
 
         axios.post('http://103.226.250.25:8078/authentication/v1/authenticate', requestBody)
